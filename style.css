@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.space_b{
+    justify-content: space-between;
+}
+.font{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+}
+.f400{
+    font-weight: 400;
+}
+.f500{
+    font-weight: 500;
+}
+.f700{
+    font-weight: 700;
+}
+.f20{
+    font-size: 20px;
+}
+.f44{
+    font-size: 44px;
+}
+.f16{
+    font-size: 16px;
+}
+.f26{
+    font-size: 26px;
+}
+.f18{
+    font-size: 18px;
+}
+.f30{
+    font-size: 30px;
+}
+.f14{
+    font-size: 14px;
+}
+.f22{
+    font-size: 22px;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 0 8%;
+    justify-content: right;
+    margin-bottom: 140px;
+}
+.sp1{
+    margin-right: 3%;
+}
+.maintop{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20%;
+}
+.maintop1_l{
+    width: 60%;
+}
+.margin0{
+    margin: 0;
+}
+.maintop1_r{
+    width: 243px;
+    height: 243px;
+    border-radius: 400px;
+    background-image: url(./image/ava.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.button{
+    color: #FFFFFF;
+    width: 20%;
+    padding: 9px 20px;
+    background-color: #FF6464;
+    border-radius: 2px;
+    border: none;
+    margin: 47px 0 70px 20%;
+}
+.mainmid{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20% 32px;
+    background-color:  #EDF7FA;
+}
+.mainmid1{
+    width: 100%;
+}
+.mainmid2{
+    width: 100%;
+}
+.a{
+    color: #00A8CC;
+    text-decoration: none;
+}
+.mainmid2_div{
+    width: 47%;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    min-height: 300px;
+}
+.p1{
+    padding-right: 4%;
+    border-right: 1px solid #000000;
+    margin-top: 0;
+}
+.p2{
+    padding-left: 4%;
+    margin-top: 0;
+}
+.mainbot{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20%;
+}
+.block{
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E0E0E0;
+    align-items: flex-start;
+    margin-bottom: 26px;
+}
+.img_block{
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 3%;
+}
+.p3{
+    margin-top: 0;
+}
+.img1{
+    background-image: url(./image/cibo.jpg);
+}
+.img2{
+    background-image: url(./image/hw.jpg);
+}
+.img3{
+    background-image: url(./image/own.jpg);
+}
+.footer{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 114px 0 54px;
+}
+.fdiv{
+    width: 230px;
+    margin: 0 auto 10px;
+}
+.p4{
+    justify-content: center;
+}
+@media (max-width: 768px){
+    .header{
+        display: none;
+    }
+    .maintop{
+        padding: 70px 5% 0;
+    }
+    .maintop1_r{
+        order: -1;
+    }
+    .maintop1{
+        flex-direction: column;
+    }
+    .maintop1_l{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .button{
+        display: block;
+        margin: 47px auto 70px;
+        width: 70%;
+    }
+    .a{
+        display: none;
+    }
+    .mainmid{
+        padding: 0 5%;
+    }
+    .mainmid2_div{
+        min-width: 70%;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        min-height: 360px;
+    }
+    .mainmid2{
+        overflow-x: auto;
+        
+    }
+    .block{
+        flex-direction: column;
+    
+    }
+    .mainbot{
+        padding: 0 5%;
+    }
+    .img1{
+        width: 100%;
+    }
+    .img2{
+        width: 100%;
+    }
+    .img3{
+        width: 100%;
+    }
+    .p3{
+        font-size: 20px;
+    }
+    .p5{
+        font-weight: 700;
+
+    }
+    .p6{
+        font-size: 16px;
+    }
+    .footer{
+        padding: 74px 0 34px;
+    }
+}
+
+
+
+
+
+
+
